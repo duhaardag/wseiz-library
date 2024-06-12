@@ -7,5 +7,6 @@ our_book = Book('Robinson Cruzeo', 300, 'adventure', 'J.J Rowling', '3423-kdsjfl
 
 print("The name: ", our_library.name)
 print("Number of pages:", our_book.pages)
+print("The adress is", our_library.address)
 
 our_library.add_book(our_book)
