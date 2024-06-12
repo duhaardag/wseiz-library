@@ -9,4 +9,5 @@ print("The name: ", our_library.name)
 print("Number of pages:", our_book.pages)
 print("The adress is", our_library.address)
 
-our_library.add_book(our_book)
+our_library.add_book(our_book) 
+our_library.remove_book(our_book)
